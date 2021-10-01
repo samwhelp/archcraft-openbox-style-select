@@ -103,13 +103,6 @@ mod_package_make_finish () {
 	mkdir -p "packages"
 	mv *.zst "packages"
 
-	RDIR='../packages/x86_64'
-
-	if [[ -d "$RDIR" ]]; then
-		mv -f *.pkg.tar.zst "$RDIR"
-		echo -e "\nPackage moved to Repository.\n[!] Don't forget to update the database.\n"
-	fi
-
 
 	mod_package_clean_on_finish
 }
