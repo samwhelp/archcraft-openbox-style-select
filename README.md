@@ -15,7 +15,7 @@
 * integrate to call [archcraft-openbox/scripts](https://github.com/archcraft-os/archcraft-openbox/tree/main/files/scripts).
 * to change archcraft openbox style.
 * to show style list by fzf.
-* with preview screenshot thumbnail.
+* with preview [screenshot thumbnail](https://github.com/samwhelp/archcraft-openbox-style-select/tree/main/files/share/style).
 
 ## Usage
 
