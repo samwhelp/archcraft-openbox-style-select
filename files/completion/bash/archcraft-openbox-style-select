@@ -1,0 +1,18 @@
+
+## /usr/local/share/bash-completion/completions/archcraft-openbox-style-select
+## $ sudo install -Dm644 ./archcraft-openbox-style-select /usr/local/share/bash-completion/completions/archcraft-openbox-style-select
+
+_archcraft_openbox_style_select () {
+
+	local cur prev words cword
+	_init_completion || return
+
+	if [ "$cword" = "1" ]; then
+		local action_list=$(DEBUG_STYLE_SELECT=false archcraft-openbox-style-select self_actions)
+		COMPREPLY=( $( compgen -W "$action_list" -- "$cur" ) )
+	fi
+
+	return 0
+}
+
+complete -F _archcraft_openbox_style_select archcraft-openbox-style-select
