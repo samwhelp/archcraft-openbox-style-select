@@ -124,3 +124,4 @@ make clean
 * https://github.com/samwhelp/note-about-fzf
 * https://archcraft.io/
 * https://github.com/archcraft-os
+* https://github.com/archcraft-os/archcraft/issues/200
