@@ -25,7 +25,7 @@
 archcraft-openbox-style-select fzf
 ```
 
-* ![screenshot](files/share/doc/img/screenshot-fzf.png)
+![screenshot](files/share/doc/img/screenshot-fzf.png)
 
 
 ## Install
