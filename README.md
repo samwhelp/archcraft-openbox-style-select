@@ -127,7 +127,7 @@ make clean
 
 ## Link
 
-* https://github.com/samwhelp/note-about-fzf/blob/gh-pages/read/project.md
+* https://github.com/samwhelp/note-about-fzf/blob/gh-pages/read/project.md#archcraft
 * https://github.com/samwhelp/note-about-archcraft/blob/gh-pages/read/project/style-select/archcraft-openbox-style-select.md
 
 ## Archcraft
