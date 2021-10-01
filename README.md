@@ -19,13 +19,19 @@
 
 ## Usage
 
-## fzf
+### fzf
 
 ```
 archcraft-openbox-style-select fzf
 ```
 
 ![screenshot](files/share/doc/img/screenshot-fzf.png)
+
+### shuf
+
+```
+archcraft-openbox-style-select shuf
+```
 
 
 ## Install
@@ -121,7 +127,11 @@ make clean
 
 ## Link
 
-* https://github.com/samwhelp/note-about-fzf
+* https://github.com/samwhelp/note-about-fzf/blob/gh-pages/read/project.md
+* https://github.com/samwhelp/note-about-archcraft/blob/gh-pages/read/project/style-select/archcraft-openbox-style-select.md
+
+## Archcraft
+
 * https://archcraft.io/
 * https://github.com/archcraft-os
 * https://github.com/archcraft-os/archcraft/issues/200
