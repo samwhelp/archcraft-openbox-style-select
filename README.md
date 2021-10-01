@@ -53,7 +53,7 @@ cd archcraft-openbox-style-select
 run to install [base-devel](https://archlinux.org/groups/x86_64/base-devel/)
 
 ``` sh
-make preare
+make prepare
 ```
 
 ### Build Package
