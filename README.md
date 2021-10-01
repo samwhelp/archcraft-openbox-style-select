@@ -11,7 +11,7 @@
 
 ## Introduction
 
-* [`archcraft-openbox-style-select`](files/files) is a command line tool.
+* [`archcraft-openbox-style-select`](files/archcraft-openbox-style-select) is a command line tool.
 * integrate to call [archcraft-openbox/scripts](https://github.com/archcraft-os/archcraft-openbox/tree/main/files/scripts).
 * to change archcraft openbox style.
 * to show style list by fzf.
