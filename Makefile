@@ -37,13 +37,13 @@ build:
 
 install:
 #	sudo pacman -U --needed *.zst
-	sudo pacman -U --needed packages/*.zst
+	sudo pacman -U --needed package/*.zst
 .PHONY: install
 
 
 reinstall:
 #	sudo pacman -U *.zst
-	sudo pacman -U packages/*.zst
+	sudo pacman -U package/*.zst
 .PHONY: reinstall
 
 
@@ -55,7 +55,7 @@ clean:
 	rm -f *.zst
 	rm -rf pkg
 	rm -rf src
-	rm -rf packages
+	rm -rf package
 .PHONY: clean
 
 

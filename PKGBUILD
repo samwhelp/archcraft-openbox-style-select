@@ -8,7 +8,7 @@
 
 pkgname=archcraft-openbox-style-select
 pkgver=0.1
-pkgrel=1
+pkgrel=2
 pkgdesc="Style Select Tool for Archcraft Openbox."
 url="https://github.com/samhelp/archcraft-openbox-style-select"
 arch=('any')
@@ -23,7 +23,7 @@ provides=("${pkgname}")
 options=(!strip !emptydirs)
 
 prepare() {
-	cp -af ../files/. "${srcdir}"
+	cp -af ../asset/. "${srcdir}"
 }
 
 
@@ -36,7 +36,8 @@ package() {
 	local sys_bash_completion_dir_path="${pkgdir}/usr/share/bash-completion/completions"
 	local sys_bash_completion_file_path="${sys_bash_completion_dir_path}/archcraft-openbox-style-select"
 
-	## prepare share dir
+	## prepare dir
+	#mkdir -p "$sys_bin_dir_path"
 	mkdir -p "$sys_share_dir_path"
 	#mkdir -p "$sys_bash_completion_dir_path"
 

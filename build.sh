@@ -69,7 +69,7 @@ mod_package_clean () {
 	rm -f *.zst
 	rm -rf pkg
 	rm -rf src
-	rm -rf packages
+	rm -rf package
 }
 
 mod_package_clean_on_finish () {
@@ -100,11 +100,24 @@ mod_package_make () {
 
 mod_package_make_finish () {
 
-	mkdir -p "packages"
-	mv *.zst "packages"
+	mkdir -p "package"
 
+	mv *.zst "package"
+
+	mod_package_make_copy_to_repository
 
 	mod_package_clean_on_finish
+}
+
+mod_package_make_copy_to_repository () {
+
+	local repository_dir_path="../../archcraft-adjestment-repository/x86_64"
+
+	if ! [ -d "${repository_dir_path}" ]; then
+		return
+	fi
+
+	cp -a package/*.zst "${repository_dir_path}/"
 }
 
 mod_package_build () {
