@@ -51,9 +51,9 @@ is_not_debug () {
 base_var_init () {
 
 	#THE_PLAN_DIR_PATH=$(find_dir_path "$THE_BASE_DIR_PATH/../.")
-	THE_PLAN_DIR_PATH=$(find_dir_path "$THE_BASE_DIR_PATH/.")
+	THE_PLAN_DIR_PATH="$(find_dir_path "$THE_BASE_DIR_PATH/.")"
 
-	THE_CMD_VERSION='0.1-1'
+	THE_CMD_VERSION='0.1-2'
 
 	THE_CMD_DIR_PATH="${THE_BASE_DIR_PATH}"
 
