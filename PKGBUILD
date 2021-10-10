@@ -15,7 +15,8 @@ arch=('any')
 license=('MIT')
 makedepends=()
 #depends=()
-depends=('archcraft-openbox' 'fzf' 'ueberzug')
+depends=('fzf' 'ueberzug')
+#depends=('archcraft-openbox' 'fzf' 'ueberzug')
 #depends=('archcraft-openbox')
 #optdepends=('fzf: fzf list' 'ueberzug: fzf image preview')
 conflicts=()
@@ -47,7 +48,7 @@ package() {
 
 	## install share files
 	## /usr/share/archcraft-openbox-style-select/style
-	cp -ru "${srcdir}/share/style" "${sys_share_dir_path}/"
+	cp -af "${srcdir}/share/style" "${sys_share_dir_path}"
 
 	## install bash-completion
 	## /completion/bash/archcraft-openbox-style-select

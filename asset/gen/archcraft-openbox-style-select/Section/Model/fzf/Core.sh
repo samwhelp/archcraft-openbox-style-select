@@ -9,7 +9,8 @@ mod_fzf () {
 	#echo "$@"
 
 
-	local choose_dir_path="$1"
+	##local choose_dir_path="$1"
+	local choose_dir_path="$THE_STYLE_DEFAULT_DIR_PATH"
 	local target_dir_path
 
 
@@ -18,6 +19,7 @@ mod_fzf () {
 		util_error_echo "## Dir Not Exist: "
 		util_error_echo
 		util_error_echo "$choose_dir_path"
+		util_error_echo "$target_dir_path"
 		util_error_echo
 		return 1
 	fi
