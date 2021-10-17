@@ -11,11 +11,11 @@
 
 ## Introduction
 
-* [`archcraft-openbox-style-select`](files/archcraft-openbox-style-select) is a command line tool.
-* integrate to call [archcraft-openbox/scripts](https://github.com/archcraft-os/archcraft-openbox/tree/main/files/scripts).
+* [`archcraft-openbox-style-select`](asset/archcraft-openbox-style-select) is a command line tool.
+* integrate to call [archcraft-openbox/scripts](https://github.com/archcraft-os/archcraft-openbox/tree/main/asset/scripts).
 * to change archcraft openbox style.
 * to show style list by fzf.
-* with preview [screenshot thumbnail](https://github.com/samwhelp/archcraft-openbox-style-select/tree/main/files/share/style).
+* with preview [screenshot thumbnail](https://github.com/samwhelp/archcraft-openbox-style-select/tree/main/asset/share/style).
 
 ## Usage
 
@@ -25,7 +25,7 @@
 archcraft-openbox-style-select fzf
 ```
 
-![screenshot](files/share/doc/img/screenshot-fzf.png)
+![screenshot](asset/share/doc/img/screenshot-fzf.png)
 
 ### shuf
 
